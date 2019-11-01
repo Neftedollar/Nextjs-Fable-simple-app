@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "fable" : "fable-splitter",
+    "next" : "next",
+    "fableBuild" : "fable-splitter App.fsproj --allFiles -d",
+    "dev": "fable-splitter App.fsproj --allFiles -d && next dev",
+    "nextDev" : "next dev",
+    "build": "fable-splitter App.fsproj --allFiles -d && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
+  },
+  "devDependencies": {
+    "fable-splitter" : "*",
+    "fable-compiler" : "*"
+  }
+}
