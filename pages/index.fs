@@ -4,4 +4,4 @@ open Fable.React
 
 let home () =
     div [] [ str "Fable welcome Next.js" ]
-home |> exportDefault
+home |> exportDefault //exportDefault is important for next js
