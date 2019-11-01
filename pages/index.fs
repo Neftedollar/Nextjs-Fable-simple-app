@@ -2,7 +2,6 @@ module Pages.Index
 open Fable.Core.JsInterop
 open Fable.React
 
-// [<Global>]
 let home () =
-    div [] [ str "Welcome to Fable Next.js" ]
+    div [] [ str "Fable welcome Next.js" ]
 home |> exportDefault

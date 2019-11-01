@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fable" : "fable-splitter",
-    "next" : "next",
-    "fableBuild" : "fable-splitter App.fsproj --allFiles -d",
-    "dev": "fable-splitter App.fsproj --allFiles -d && next dev",
-    "nextDev" : "next dev",
+    "fable": "fable-splitter",
+    "next": "next",
+    "fableBuild": "fable-splitter App.fsproj --allFiles -o ./",
+    "dev": "fable-splitter App.fsproj --allFiles -w -o ./ & next dev",
+    "nextDev": "next dev",
     "build": "fable-splitter App.fsproj --allFiles -d && next build",
     "start": "next start"
   },
@@ -17,7 +17,7 @@
     "react-dom": "16.10.2"
   },
   "devDependencies": {
-    "fable-splitter" : "*",
-    "fable-compiler" : "*"
+    "fable-splitter": "*",
+    "fable-compiler": "*"
   }
 }
