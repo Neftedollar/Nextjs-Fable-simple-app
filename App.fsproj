@@ -3,6 +3,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="nextLib/Link.fs" />
+    <Compile Include="nextLib/Router.fs" />
+    <Compile Include="comps/header.fs"/>
+    <Compile Include="pages/post/[id].fs" />
+    <Compile Include="pages/about.fs" />
+    <Compile Include="pages/post.fs" />
     <Compile Include="pages/index.fs" />
   </ItemGroup>
   <ItemGroup>
