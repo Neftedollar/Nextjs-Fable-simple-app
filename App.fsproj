@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="pages/index.fs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Fable.Core" Version="3.0.0" />
-    <PackageReference Include="Fable.React" Version="*" />
+    <PackageReference Include="Fable.Core" Version="4.0.0-theta-007" />
+    <PackageReference Include="Fable.Lit" Version="1.4.2" />
+    <PackageReference Include="Fable.React" Version="9.1.0" />
   </ItemGroup>
 </Project>

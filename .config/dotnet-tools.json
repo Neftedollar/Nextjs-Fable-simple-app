@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "fable": {
+      "version": "4.0.0-theta-018",
+      "commands": [
+        "fable"
+      ]
+    },
+    "femto": {
+      "version": "0.16.0",
+      "commands": [
+        "femto"
+      ]
+    }
+  }
+}

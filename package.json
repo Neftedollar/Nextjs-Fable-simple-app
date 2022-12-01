@@ -3,21 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fable": "fable-splitter",
+    "fable": "fable-splitter -e .jsx",
     "next": "next",
-    "fableBuild": "fable-splitter App.fsproj --allFiles -o ./",
-    "dev": "fable-splitter App.fsproj --allFiles -w -o ./ & next dev",
+    "fableBuild": "fable-splitter App.fsproj --allFiles -e .jsx -o ./",
+    "dev": "fable-splitter App.fsproj --allFiles -e .jsx -w -o ./ & next dev",
     "nextDev": "next dev",
-    "build": "fable-splitter App.fsproj --allFiles -d && next build",
+    "build": "fable-splitter App.fsproj --allFiles -e .jsx -d && next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.3.3",
-    "react": "16.10.2",
-    "react-dom": "16.10.2"
+    "lit": "^2.4.1",
+    "next": "^13.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "fable-splitter": "*",
-    "fable-compiler": "*"
+    "fable-compiler": "*",
+    "fable-splitter": "*"
   }
 }
