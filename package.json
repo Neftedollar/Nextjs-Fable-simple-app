@@ -12,13 +12,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "lit": "^2.4.1",
     "next": "^13.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "fable-compiler": "*",
-    "fable-splitter": "*"
+    "fable-compiler": "^2.13.0",
+    "fable-splitter": "^2.2.1"
   }
 }

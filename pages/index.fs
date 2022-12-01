@@ -19,15 +19,15 @@ let toClass (classes: (string * bool) list) : string =
         | c, true -> Some c)        
     |> String.concat " "
 
-[<JSX.Component>]
-let hello () =
-    JSX.jsx
-        $"""
-        <div>hello</div>
-    """
+// [<JSX.Component>]
+// let hello () =
+//     JSX.jsx
+//         $"""
+//         <div>hello</div>
+//     """
 
 let home () =
-    div [] [ toReact (hello())
+    div [] [ // toReact (hello())
              str "Fable welcome Next.js. "
              br []
              str "enjoy your stay." ]
