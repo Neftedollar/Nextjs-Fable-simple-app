@@ -1,7 +1,14 @@
 module Pages.Index
+
+open Fable.Core
 open Fable.Core.JsInterop
-open Fable.React
 
 let home () =
-    div [] [ str "Fable welcome Next.js" ]
+    JSX.jsx
+        $"""
+    <div>
+        <p>Hello World</p>
+    </div>
+    """
+
 home |> exportDefault //exportDefault is important for next js
